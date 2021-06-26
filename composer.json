@@ -1,0 +1,21 @@
+{
+    "name": "sockstack/repository",
+    "description": "laravel extension for generating repository layer",
+    "keywords": ["extension", "laravel", "generating repository layer"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sockstack\\Repository\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": ">=5.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sockstack\\Repository\\RepositoryGeneratorProvider"
+            ]
+        }
+    }
+}
